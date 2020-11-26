@@ -1,19 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane fx:controller="Main.Controller.Controller" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane id="back" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="374.0" prefWidth="600.0" stylesheets="@css/style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Main.Controller.Controller">
    <children>
-      <Label fx:id="l1" layoutX="127.0" layoutY="62.0" text="Label 1" />
-      <Label fx:id="l2" layoutX="210.0" layoutY="62.0" text="Label 2" />
-      <Label fx:id="l3" layoutX="279.0" layoutY="62.0" text="Label 3" />
-      <Label fx:id="l4" layoutX="359.0" layoutY="62.0" text="Label 4" />
-      <Label fx:id="l5" layoutX="436.0" layoutY="62.0" text="Label 5" />
-      <Label fx:id="l6" layoutX="147.0" layoutY="125.0" text="Label 6" />
-      <Label fx:id="l7" layoutX="236.0" layoutY="125.0" text="Label 7" />
-      <Label fx:id="l8" layoutX="323.0" layoutY="125.0" text="Label 8" />
-      <Label fx:id="l9" layoutX="412.0" layoutY="125.0" text="Label 9" />
-      <Button layoutX="268.0" layoutY="252.0" mnemonicParsing="false" onAction="#generator" text="Generate" />
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/bg.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="252.0" layoutY="298.0" mnemonicParsing="false" onAction="#generator" style="-fx-background-color: #0044ff;" text="Generate" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Label fx:id="l1" alignment="CENTER" layoutX="64.0" layoutY="90.0" text="Number 1" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </Label>
+      <Label fx:id="l2" alignment="CENTER" layoutX="230.0" layoutY="90.0" text="Number 2" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </Label>
+      <Label fx:id="l3" alignment="CENTER" layoutX="405.0" layoutY="90.0" text="Number 3" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </Label>
+      <Label fx:id="l4" alignment="CENTER" layoutX="64.0" layoutY="153.0" text="Number 4" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </Label>
+      <Label fx:id="l5" alignment="CENTER" layoutX="232.0" layoutY="153.0" text="Number 5" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </Label>
+      <Label fx:id="l6" alignment="CENTER" layoutX="403.0" layoutY="153.0" text="Number 6" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </Label>
+      <Label fx:id="l7" alignment="CENTER" layoutX="64.0" layoutY="216.0" text="Number 7" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </Label>
+      <Label fx:id="l8" alignment="CENTER" layoutX="232.0" layoutY="216.0" text="Number 8" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </Label>
+      <Label fx:id="l9" alignment="CENTER" layoutX="405.0" layoutY="216.0" text="Number 9" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </Label>
    </children>
 </AnchorPane>
