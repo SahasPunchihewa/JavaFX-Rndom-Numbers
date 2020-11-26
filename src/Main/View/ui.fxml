@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:controller="Main.Controller.Controller" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="l1" layoutX="127.0" layoutY="62.0" text="Label 1" />
+      <Label fx:id="l2" layoutX="210.0" layoutY="62.0" text="Label 2" />
+      <Label fx:id="l3" layoutX="279.0" layoutY="62.0" text="Label 3" />
+      <Label fx:id="l4" layoutX="359.0" layoutY="62.0" text="Label 4" />
+      <Label fx:id="l5" layoutX="436.0" layoutY="62.0" text="Label 5" />
+      <Label fx:id="l6" layoutX="147.0" layoutY="125.0" text="Label 6" />
+      <Label fx:id="l7" layoutX="236.0" layoutY="125.0" text="Label 7" />
+      <Label fx:id="l8" layoutX="323.0" layoutY="125.0" text="Label 8" />
+      <Label fx:id="l9" layoutX="412.0" layoutY="125.0" text="Label 9" />
+      <Button layoutX="268.0" layoutY="252.0" mnemonicParsing="false" onAction="#generator" text="Generate" />
+   </children>
+</AnchorPane>
